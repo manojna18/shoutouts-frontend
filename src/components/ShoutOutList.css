@@ -1,0 +1,49 @@
+.ShoutOutList h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ShoutOutList {
+  margin: 0;
+}
+
+.ShoutOutList ul {
+  margin-left: 0;
+}
+
+.ShoutOutList .from-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ShoutOutList #img-upload {
+  height: 200px;
+  width: 160px;
+}
+
+.ShoutOutList .user-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 5px;
+}
+
+.ShoutOutList li {
+  background-color: #fbfcfc;
+  list-style-type: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  box-shadow: inset 1px 1px 5px #000;
+  border-radius: 15px;
+}
+
+.ShoutOutList button {
+  background-color: #000;
+  margin: 10px;
+  padding: 5px;
+}

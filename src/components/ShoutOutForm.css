@@ -1,0 +1,33 @@
+.ShoutOutForm {
+  background-color: white;
+  border: #aaa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ShoutOutForm {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 30px;
+}
+
+.ShoutOutForm label {
+  width: 100px;
+}
+
+.ShoutOutForm input {
+  margin: 10px;
+  display: inline block;
+  width: 570px;
+  padding: 10px;
+}
+
+.ShoutOutForm button {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(255, 180, 127);
+  font-weight: bold;
+  width: 200px;
+}
